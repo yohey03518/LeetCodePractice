@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>LeetCodeImplement.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>LeetCodeImplement.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -40,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="No1-10\No3_LongestSubstringWithoutRepeatingCharacters.cs" />
-    <Compile Include="No1-10\No2_AddTwoNumbers.cs" />
-    <Compile Include="No1-10\No1_TwoSum.cs" />
+    <Compile Include="No011-020\No13_RomanToInteger.cs" />
+    <Compile Include="No201-210\No206_ReverseLinkedList.cs" />
+    <Compile Include="No211-220\No217_ContainsDuplicate.cs" />
+    <Compile Include="No001-010\No4_MedianOfTwoSortedArrays.cs" />
+    <Compile Include="No001-010\No3_LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="No001-010\No2_AddTwoNumbers.cs" />
+    <Compile Include="No001-010\No1_TwoSum.cs" />
+    <Compile Include="No101-110\No104_MaximumDepthofBinaryTree.cs" />
+    <Compile Include="No471-480\No479_LargestPalindromeProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LeetCodeImplement.ruleset" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

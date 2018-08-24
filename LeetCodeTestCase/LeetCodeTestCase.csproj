@@ -51,9 +51,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="No1-10\No3Test_LongestSubstringWithoutRepeatingCharacters.cs" />
-    <Compile Include="No1-10\No2Test_AddTwoNumbers.cs" />
-    <Compile Include="No1-10\No1Test_TwoSum.cs" />
+    <Compile Include="No001-010\No4Test_MedianOfTwoSortedArrays.cs" />
+    <Compile Include="No001-010\No3Test_LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="No001-010\No2Test_AddTwoNumbers.cs" />
+    <Compile Include="No001-010\No1Test_TwoSum.cs" />
+    <Compile Include="No011-020\No13Test_RomanToInteger.cs" />
+    <Compile Include="No101-110\No104Test_MaximumDepthofBinaryTree.cs" />
+    <Compile Include="No201-210\No206Test_ReverseLinkedList.cs" />
+    <Compile Include="No211-220\No217Test_ContainsDuplicate.cs" />
+    <Compile Include="No471-480\No479Test_LargestPalindromeProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +68,7 @@
       <Name>LeetCodeImplement</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
